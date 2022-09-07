@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -at | head
+find . -type f -print | wc -l
